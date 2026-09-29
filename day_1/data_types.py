@@ -17,5 +17,5 @@ print(x_complex, type(x_complex))
 print(x_none, type(x_none))
 print(x_list, type(x_list))
 print(x_tuple, type(x_tuple))
-print(x_set, type(x_set)) # Should print {1, 2, 3, 4}
+print(x_set, type(x_set))   # Should print {1, 2, 3, 4} because duplicates are removed
 print(x_dict, type(x_dict))
