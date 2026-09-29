@@ -1,10 +1,8 @@
 """Calculates and prints the Euclidean distance between the 2 points"""
 
-x1 = 2
-y1 = 3
-x2 = 10
-y2 = 8
+point_1 = (2, 3)
+point_2 = (10, 8)
 
-distance = ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5
-print(distance)
+distance = ((point_2[0] - point_1[0]) ** 2 + (point_2[1] - point_1[1]) ** 2) ** 0.5
+print("Distance:", distance)
 
